@@ -1,0 +1,63 @@
+{
+  "name": "@litecoinfoundation/redux-persist-sensitive-storage",
+  "version": "0.0.1",
+  "description": "redux-persist storage engine for react-native-sensitive-info",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc -p ./",
+    "lint": "eslint '**/*.ts' --max-warnings 0",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litecoin-foundation/redux-persist-sensitive-storage.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "redux-storage",
+    "redux-rehydrate",
+    "react-native",
+    "android",
+    "ios",
+    "keychain",
+    "keystore"
+  ],
+  "author": "Randy Coulman <randy@codingzeal.com> (http://open.codingzeal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litecoin-foundation/redux-persist-sensitive-storage/issues"
+  },
+  "homepage": "https://github.com/litecoin-foundation/redux-persist-sensitive-storage#readme",
+  "peerDependencies": {
+    "react-native": "*",
+    "react-native-sensitive-info": "3.x - 6.x"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.68.1",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "babel-jest": "^28.1.2",
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.2",
+    "react": "^17.0.2",
+    "react-native": "^0.68.2",
+    "react-native-sensitive-info": "github:mCodex/react-native-sensitive-info#495dd7f08c077f5744e56803e45f54787df3dab3",
+    "testdouble": "^3.16.6",
+    "typescript": "^4.7.4"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setupTests.js"
+  }
+}
